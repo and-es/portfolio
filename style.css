@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+img {
+    display: block;
+}
+
+li,
+.item {
+    font-size: large;
+}
+
+body {
+    min-height: calc(100vh - 4rem);
+    max-width: 1080px;
+    margin: auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    border-bottom: thick double black;
+}
+
+h2 {
+    margin-top: 1rem;
+}
+
+ul,
+#contact {
+    margin: 1rem 2rem;
+}
+
+#contact {
+    display: flex;
+    gap: 3rem;
+}
+
+#contact .item {
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+#misskey-logo {
+    height: 100%;
+}
+
+#x-logo {
+    height: 55%;
+}
+
+#github-logo {
+    height: 57%;
+}
+
+#space {
+    flex-grow: 1;
+}
+
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid black;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
